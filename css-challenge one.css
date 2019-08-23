@@ -1,0 +1,13 @@
+div.main-doc {
+display:grid; 
+grid-template-columns: minmax(200px, auto) 1fr;
+grid-template-areas: "navbar maincontent";
+grid-gap: 30px;
+ 
+}
+nav#navbar{
+grid-area: navbar; 
+position: fixed;
+   
+}
+ 
