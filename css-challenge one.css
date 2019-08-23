@@ -10,4 +10,25 @@ grid-area: navbar;
 position: fixed;
    
 }
- 
+nav#navbar a {
+    display: block;
+    border: 2px solid black;
+    padding: 6px;
+    margin: 10px 0;
+    text-decoration: none; 
+    color: black;
+     }
+    
+     main#main-doc {
+         grid-area: maincontent;
+      }
+
+      header {
+          font-size: 2.0em;
+          font-weight: bold;
+      }
+      code {
+        background-color: darkkhaki;
+        display: block;
+        padding: 15px;  
+      }
