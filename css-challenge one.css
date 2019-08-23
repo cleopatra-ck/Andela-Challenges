@@ -20,7 +20,7 @@ nav#navbar a {
      }
     
      main#main-doc {
-         grid-area: maincontent;
+         grid-area: mainContent;
       }
 
       header {
@@ -32,3 +32,9 @@ nav#navbar a {
         display: block;
         padding: 15px;  
       }
+
+    @media screen and (max-width: 760px){ 
+        div.main-doc {
+        grid-template-columns: 1fr;
+        grid-template-areas: "navbar" "mainContent";
+    }}
