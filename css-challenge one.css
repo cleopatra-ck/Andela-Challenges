@@ -12,11 +12,11 @@ position: fixed;
 }
 nav#navbar a {
     display: block;
-    border: 2px solid black;
-    padding: 6px;
+    border: 1px solid chartreuse;
+    padding: 4px;
     margin: 10px 0;
     text-decoration: none; 
-    color: black;
+    color: black  ;
      }
     
      main#main-doc {
@@ -28,12 +28,12 @@ nav#navbar a {
           font-weight: bold;
       }
       code {
-        background-color: darkkhaki;
+        background-color: aliceblue;
         display: block;
         padding: 15px;  
       }
 
-    @media screen and (max-width: 760px){ 
+    @media screen and (max-width: 750px){ 
         div.main-doc {
         grid-template-columns: 1fr;
         grid-template-areas: "navbar" "mainContent";
