@@ -1,2 +1,2 @@
-# Andela-Challenges
-repo for Andela Challenges
+# Andela-Week1-Challenge
+repo for Andela Week 1 Challenge
