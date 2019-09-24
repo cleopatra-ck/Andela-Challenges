@@ -1,5 +1,7 @@
 # Andela-Week1-Challenge
-Responsive Web Design Project - Build a Technical Documentation Page
+Responsive Web Design Project. Build a Technical Documentation Page
+
+
 
 
 
